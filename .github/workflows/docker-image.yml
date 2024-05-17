@@ -20,5 +20,5 @@ jobs:
     - name: Push Docker Image
       run: docker push python:latest
       env:
-        DOCKER_USERNAME: ${{ secrets.cloudinstitution }}
-        DOCKER_PASSWORD: ${{ secrets.Cloudinstitution@1234 }}
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME}}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
