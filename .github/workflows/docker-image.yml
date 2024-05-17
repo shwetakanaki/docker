@@ -14,10 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build the Docker image
-      
     - name: Build and push Docker image
       run: 
-        
         docker build -t python:v1 .
         docker push python:v1
